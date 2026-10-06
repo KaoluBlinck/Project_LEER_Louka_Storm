@@ -1,0 +1,125 @@
+body{
+    height: 100vh;
+    overflow: hidden;
+}
+
+.body-div{
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    height: 96vh;
+    width: 98vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.back-div{
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1000;
+    display: flex;
+}
+
+.background{
+    width: 100vw;
+    height: 101vh;
+    filter: brightness(50%);
+}
+
+.Logo{
+    width: 250px;
+    height: auto;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+.log_in{
+    font-size: 30px;
+    text-align: center;
+    position: fixed;
+    top: 165px;
+    color: black;
+    font-family: Arial;
+}
+
+.uitleg{
+    font-size: 15px;
+    text-align: center;
+    position: fixed;
+    top: 225px;
+    color: gray;
+    font-family: Arial;
+}
+
+.keuze-div{
+    border: solid;
+    border-color: rgb(197, 197, 197);
+    border-width: 2px;
+    background-color: rgb(230, 230, 230);
+    height: 65vh;
+    width: 25vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 15px 15px 15px rgb(23, 23, 23);
+}
+
+.logo_CGS{
+    width: 22vw;
+    height: auto;
+    position:fixed;
+    top: 120px;
+}
+
+.e-mail{
+    height: 40px;
+    width: 250px;
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 10px;
+    position: fixed;
+    top: 280px;
+}
+
+.wachtwoord{
+    height: 40px;
+    width: 250px;
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 10px;
+    position: fixed;
+    top: 330px;
+}
+
+.Registreer{
+    position:fixed;
+    top: 380px;
+}
+
+.inlog-button{
+    position: fixed;
+    top: 405px;
+    height: 40px;
+    width: 150px;
+    border: none;
+    background-color: rgb(29, 155, 240);
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.inlog-button:hover{
+    opacity: 90%;
+}
+
+.inlog-button:active{
+    border: solid;
+    border-color: rgb(29, 155, 240);
+    border-width: 2px;
+    background-color: white;
+    color: rgb(29, 155, 240);
+}

@@ -1,0 +1,97 @@
+body{
+    height: 100vh;
+    overflow: hidden;
+}
+
+.body-div{
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    height: 96vh;
+    width: 98vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.back-div{
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1000;
+    display: flex;
+}
+
+.background{
+    width: 100vw;
+    height: 101vh;
+    filter: brightness(50%);
+}
+
+.Logo{
+    width: 250px;
+    height: auto;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+.Welkom{
+    font-size: 30px;
+    text-align: center;
+    position: fixed;
+    top: 165px;
+    color: black;
+    font-family: Arial;
+}
+
+.uitleg{
+    font-size: 15px;
+    text-align: center;
+    position: fixed;
+    top: 225px;
+    color: gray;
+    font-family: Arial;
+}
+
+.keuze-div{
+    border: solid;
+    border-color: rgb(197, 197, 197);
+    border-width: 2px;
+    background-color: rgb(230, 230, 230);
+    height: 65vh;
+    width: 25vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 15px 15px 15px rgb(23, 23, 23);
+}
+
+.logo_CGS{
+    width: 22vw;
+    height: auto;
+    position:fixed;
+    top: 120px;
+    
+}
+
+.Knop_Leerkracht{
+    border: none;
+    background-color: rgb(206, 205, 205);
+    border-radius: 30px;
+    height: 50px;
+    width: 100px;
+    cursor: pointer;
+    position: fixed;
+    top: 300px;
+}
+
+.Knop_Leerling{
+    border: none;
+    background-color: rgb(206, 205, 205);
+    border-radius: 30px;
+    height: 50px;
+    width: 100px;
+    cursor: pointer;
+    position: fixed;
+    top: 380px;
+}
