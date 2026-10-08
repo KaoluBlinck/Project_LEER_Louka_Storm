@@ -21,13 +21,13 @@
 
                 <img src="../Project_LEER_foto's/cgs_logo.png" class="logo_CGS">
 
-                <input type="text" placeholder="E-mail" class="e-mail">
-
-                <input type="text" placeholder="Wachtwoord" class="wachtwoord">
-
-                <a href="../Project_LEER_Leerling_Leerkracht/Project_LEER_Leerling_Leerkracht.html" class="Registreer">Registreer hier</a>
+                <form method="POST" action="/inloggen" class="form">
+                    <input type="text" placeholder="E-mail" class="e-mail" id="e-mail" name="e-mail">
+                    <input type="password" placeholder="Wachtwoord" class="wachtwoord" id="wachtwoord" name="wachtwoord">
+                </form>
+                <a href="../Project_LEER_Leerling_Leerkracht/Project_LEER_Leerling_Leerkracht.html" class="Registreer">Registreer</a>
                 
-                <button class="inlog-button">inloggen</button>
+                <button class="inlog-button" type="submit">inloggen</button>
             </div>
         </div>
     </body>

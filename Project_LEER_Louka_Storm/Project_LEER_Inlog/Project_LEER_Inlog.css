@@ -66,6 +66,14 @@ body{
     box-shadow: 15px 15px 15px rgb(23, 23, 23);
 }
 
+.form{
+    height: 65vh;
+    width: 25vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .logo_CGS{
     width: 22vw;
     height: auto;
