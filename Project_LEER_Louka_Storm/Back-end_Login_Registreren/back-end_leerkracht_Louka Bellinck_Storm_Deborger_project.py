@@ -139,7 +139,7 @@ def registreren():
     }
 
     return leerkracht
-
+print("nigga")
 
 def voornaam():
     voornaam = request.form.get("voornaam", "").strip()
