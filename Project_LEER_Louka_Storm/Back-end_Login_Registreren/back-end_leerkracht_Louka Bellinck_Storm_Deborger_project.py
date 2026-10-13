@@ -8,7 +8,7 @@ BASIS_MAP = os.path.dirname(os.path.abspath(__file__))
 BESTAND = os.path.join(BASIS_MAP, "datalijst_leerkracht_Louka Bellinck_Storm_Deborger_project.csv")
 
 REGISTREREN_PAGINA = "registreren_leerkracht_Louka Bellinck_Storm_Deborger_project.html"
-LOGIN_PAGINA = "login_leerkracht_Louka Bellinck_Storm_Deborger_project.html"
+LOGIN_PAGINA = "Project_LEER_Leerkracht_Inloggen.html.html"
 
 VELDEN = [
     "leerkrachtnummer",
@@ -205,4 +205,3 @@ def vakken():
 if __name__ == "__main__":
     # Andere poort dan de leerlingenversie, zodat je beide tegelijk kan laten draaien
     app.run(debug=True, port=5001)
-    

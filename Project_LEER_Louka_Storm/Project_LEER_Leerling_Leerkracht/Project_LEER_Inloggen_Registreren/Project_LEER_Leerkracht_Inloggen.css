@@ -81,3 +81,27 @@ body{
     align-items: center;
     justify-content: center;
 }
+
+.e-mail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 320px;
+}
+
+.wachtwoord{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 350px;
+}
+
+.inlogbutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 390px;
+}
