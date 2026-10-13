@@ -139,10 +139,7 @@ def registreren():
     }
 
     return leerkracht
-<<<<<<< HEAD
-
-=======
->>>>>>> 7ae526e47187f60c9b94f041621576c3f5556060
+print("nigga")
 
 def voornaam():
     voornaam = request.form.get("voornaam", "").strip()
