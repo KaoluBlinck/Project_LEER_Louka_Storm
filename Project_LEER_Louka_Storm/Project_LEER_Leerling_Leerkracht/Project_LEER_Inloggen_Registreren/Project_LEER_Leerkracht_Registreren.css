@@ -59,7 +59,7 @@ body{
     border-width: 2px;
     background-color: rgb(230, 230, 230);
     height: 65vh;
-    width: 25vw;
+    width: 50vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -71,5 +71,9 @@ body{
     height: auto;
     position:fixed;
     top: 120px;
-    
+    left: 27vw;
+}
+
+.form{
+    position: fixed;
 }

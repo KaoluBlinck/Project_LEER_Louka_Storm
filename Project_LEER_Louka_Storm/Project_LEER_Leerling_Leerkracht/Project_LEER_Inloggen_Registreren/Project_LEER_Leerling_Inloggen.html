@@ -13,14 +13,18 @@
 
             <img class="Logo" src="../../Project_LEER_foto's/Logo.png">
 
-            <p class="Welkom">Welkom!</p>
+            <p class="Welkom">Log in!</p>
 
-            <p class="uitleg">Ben je een leerkracht of een leerling?</p>
+            <p class="uitleg">Geef jouw gegevens in</p>
 
             <div class="keuze-div">
 
-                <img src="../../Project_LEER_foto's/cgs_logo.png" class="logo_CGS">
-
+                <img src="../../Project_LEER_foto's/cgs_logo.png" class="logo_CGS" >
+                <form method="POST" action="/inloggen" class="form" id="inlogform">
+                    <input type="text" placeholder="E-mail" class="e-mail" id="e-mail" name="e-mail">
+                    <input type="password" placeholder="Wachtwoord" class="wachtwoord" id="wachtwoord" name="wachtwoord">
+                </form>
+                <button type="submit" form="inlogform" class="inlogbutton">inloggen</button>
             </div>
         </div>
     </body>
