@@ -7,8 +7,8 @@ app = Flask(__name__)
 BASIS_MAP = os.path.dirname(os.path.abspath(__file__))
 BESTAND = os.path.join(BASIS_MAP, "datalijst_Louka Bellinck_Storm_Deborger_project.csv")
 
-REGISTREREN_PAGINA = "registreren_Louka Bellinck_Storm_Deborger_project.html"
-LOGIN_PAGINA = "login_Louka Bellinck_Storm_Deborger_project.html"
+REGISTREREN_PAGINA = "Project_LEER_Leerling_Registreren.html"
+LOGIN_PAGINA = "Project_LEER_Leerling_Registreren.html"
 
 VELDEN = [
     "leerlingnummer",
