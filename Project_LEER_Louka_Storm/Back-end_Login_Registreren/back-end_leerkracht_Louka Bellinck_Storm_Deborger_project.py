@@ -205,3 +205,4 @@ def vakken():
 if __name__ == "__main__":
     # Andere poort dan de leerlingenversie, zodat je beide tegelijk kan laten draaien
     app.run(debug=True, port=5001)
+    
