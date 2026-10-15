@@ -59,7 +59,7 @@ body{
     border-width: 2px;
     background-color: rgb(230, 230, 230);
     height: 65vh;
-    width: 25vw;
+    width: 50vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -72,4 +72,9 @@ body{
     position:fixed;
     top: 120px;
     
+}
+
+.form{
+    position: fixed;
+    align-items: center;
 }

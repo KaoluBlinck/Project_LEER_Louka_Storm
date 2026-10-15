@@ -13,14 +13,24 @@
 
             <img class="Logo" src="../../Project_LEER_foto's/Logo.png">
 
-            <p class="Welkom">Welkom!</p>
+            <p class="Welkom">Registreer</p>
 
-            <p class="uitleg">Ben je een leerkracht of een leerling?</p>
+            <p class="uitleg">Geef jouw gegevens in</p>
 
             <div class="keuze-div">
 
                 <img src="../../Project_LEER_foto's/cgs_logo.png" class="logo_CGS">
-
+                <form class="form" method="POST" action="/registreren" id="registreerform">
+                    <div>
+                        <input type="text" name="nummer" id="nummer" placeholder="nummer">
+                        <input type="text" name="naam" id="voornaam" placeholder="voornaam">
+                        <input type="text" name="achternaam" id="achternaam" placeholder="achternaam">
+                    </div>
+                    <div>
+                        <input type="e-mail" name="e-mail" id="e-mail" placeholder="e-mail">
+                        <input type="wachtwoord" name="wachtwoord" id="wachtwoord" placeholder="wachtwoord">
+                    </div>
+                </form>
             </div>
         </div>
     </body>
