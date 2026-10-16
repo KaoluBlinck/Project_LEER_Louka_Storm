@@ -77,3 +77,8 @@ body{
 .form{
     position: fixed;
 }
+
+.registreerbutton{
+    position: fixed;
+    top: 400px;
+}
