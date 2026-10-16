@@ -1,14 +1,4 @@
 const form = document.getElementById("registreerform");
-
-// 1. Validatie nummer
-function valideerNummer(nummer) {
-    if (nummer === "") return "Vul een nummer in.";
-    if (!/^\d+$/.test(nummer)) {
-        return "Het nummer mag alleen cijfers bevatten.";
-    }
-    return "";
-}
-
 // 2. Validatie voornaam
 function valideerVoornaam(voornaam) {
     if (voornaam === "") return "Vul je voornaam in.";
@@ -49,14 +39,12 @@ function valideerWachtwoord(wachtwoord) {
 
 // 6. Controleer alle invoervelden
 function valideerFormulier() {
-    const nummer = document.getElementById("nummer").value.trim();
     const voornaam = document.getElementById("voornaam").value.trim();
     const achternaam = document.getElementById("achternaam").value.trim();
     const email = document.getElementById("e-mail").value.trim();
     const wachtwoord = document.getElementById("wachtwoord").value;
 
     const fouten = [
-        valideerNummer(nummer),
         valideerVoornaam(voornaam),
         valideerAchternaam(achternaam),
         valideerEmail(email),
@@ -80,7 +68,6 @@ form.addEventListener("submit", async function(event) {
     }
 
     const gegevens = {
-        nummer: document.getElementById("nummer").value.trim(),
         voornaam: document.getElementById("voornaam").value.trim(),
         achternaam: document.getElementById("achternaam").value.trim(),
         email: document.getElementById("e-mail").value.trim(),

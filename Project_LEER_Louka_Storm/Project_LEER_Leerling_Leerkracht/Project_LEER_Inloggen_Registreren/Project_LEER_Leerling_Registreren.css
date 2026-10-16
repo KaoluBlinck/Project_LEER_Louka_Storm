@@ -78,3 +78,8 @@ body{
     position: fixed;
     align-items: center;
 }
+
+.registreerbutton{
+    position: fixed;
+    top: 400px;
+}
