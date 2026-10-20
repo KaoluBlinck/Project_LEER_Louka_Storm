@@ -35,8 +35,24 @@ async function inloggen(){
     }
 
     else{
-        document.getElementById("Knop_Inloggen").style.display = 'red';
+        document.getElementById("Knop_Inloggen").style.backgroundColor = 'red';
         await sleep(250);
-        document.getElementById("Knop_Inloggen").style.display = 'rgb(206, 205, 205)';
+        document.getElementById("Knop_Inloggen").style.backgroundColor = 'rgb(206, 205, 205)';
+    }
+}
+
+async function registreren(){
+    if (actiefleerkracht){
+        window.location.href = "./Project_LEER_Inloggen_Registreren/Project_LEER_Leerkracht_Registreren.html";
+    }
+
+    if (actiefleerling){
+        window.location.href = "./Project_LEER_Inloggen_Registreren/Project_LEER_Leerling_Registreren.html";
+    }
+
+    else{
+        document.getElementById("Knop_Registreren").style.backgroundColor = 'red';
+        await sleep(250);
+        document.getElementById("Knop_Registreren").style.backgroundColor = 'rgb(206, 205, 205)';
     }
 }
