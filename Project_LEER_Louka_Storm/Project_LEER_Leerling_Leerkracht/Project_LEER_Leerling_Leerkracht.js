@@ -27,11 +27,11 @@ function leerling_actief(){
 
 async function inloggen(){
     if (actiefleerkracht){
-        window.location.href = "Project_LEER_Leerkracht_Inloggen.html";
+        window.location.href = "./Project_LEER_Inloggen_Registreren/Project_LEER_Leerkracht_Inloggen.html";
     }
 
     if (actiefleerling){
-        window.location.href = "Project_LEER_Leerling_Inloggen.html";
+        window.location.href = "./Project_LEER_Inloggen_Registreren/Project_LEER_Leerling_Inloggen.html";
     }
 
     else{
