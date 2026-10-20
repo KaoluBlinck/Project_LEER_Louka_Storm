@@ -3,6 +3,8 @@
         <title>Project LEER, Louka en Storm</title>
 
         <link rel="stylesheet" href="./Project_LEER_Leerling_Leerkracht.css">
+
+        <script src="./Project_LEER_Leerling_Leerkracht.js"></script>
     </head>
 
     <body>
@@ -21,21 +23,21 @@
 
                 <img src="../Project_LEER_foto's/cgs_logo.png" class="logo_CGS">
 
-                <button class="Knop_Leerkracht">
+                <button class="Knop_Leerkracht" id="Knop_Leerkracht" onclick="leerkracht_actief()">
                     Leerkracht
                 </button>
 
-                <button class="Knop_Leerling">
+                <button class="Knop_Leerling" id="Knop_Leerling" onclick="leerling_actief()">
                     Leerling
                 </button>
 
                 <div class="lijntje"></div>
 
-                <button class="Knop_Registreren">
+                <button class="Knop_Registreren" id="Knop_Registreren">
                     Registreren
                 </button>
 
-                <button class="Knop_Inloggen">
+                <button class="Knop_Inloggen" id="Knop_Inloggen" onclick="inloggen()">
                     Inloggen
                 </button>
             </div>
