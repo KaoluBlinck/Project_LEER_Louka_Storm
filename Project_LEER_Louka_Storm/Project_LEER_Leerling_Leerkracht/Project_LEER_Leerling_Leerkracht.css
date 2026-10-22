@@ -57,7 +57,7 @@ body{
     border: solid;
     border-color: rgb(197, 197, 197);
     border-width: 2px;
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(197, 197, 197);
     height: 65vh;
     width: 25vw;
     display: flex;
@@ -75,7 +75,9 @@ body{
 }
 
 .Knop_Leerkracht{
-    border: none;
+    border: solid;
+    border-width: 1px;
+    border-color: black;
     background-color: rgb(206, 205, 205);
     border-radius: 30px;
     height: 50px;
@@ -87,7 +89,9 @@ body{
 }
 
 .Knop_Leerling{
-    border: none;
+    border: solid;
+    border-width: 1px;
+    border-color: black;
     background-color: rgb(206, 205, 205);
     border-radius: 30px;
     height: 50px;
@@ -108,7 +112,9 @@ body{
 }
 
 .Knop_Registreren{
-    border: none;
+    border: solid;
+    border-width: 1px;
+    border-color: black;
     background-color: rgb(206, 205, 205);
     border-radius: 30px;
     height: 50px;
@@ -120,7 +126,9 @@ body{
 }
 
 .Knop_Inloggen{
-    border: none;
+    border: solid;
+    border-width: 1px;
+    border-color: black;
     background-color: rgb(206, 205, 205);
     border-radius: 30px;
     height: 50px;
