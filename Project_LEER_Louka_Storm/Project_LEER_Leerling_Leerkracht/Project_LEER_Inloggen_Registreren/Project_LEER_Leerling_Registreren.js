@@ -47,6 +47,15 @@ function valideerWachtwoord(wachtwoord) {
     return "";
 }
 
+function valideerKlas(klas, klassen){
+    if (klas.trim() === "") {
+        return "Vul een klas in.";
+    }
+    if (!(klas in klassen)){
+        return "Dit is geen geldige klas";
+    }
+}
+
 // 6. Controleer alle invoervelden
 function valideerFormulier() {
     const nummer = document.getElementById("nummer").value.trim();
@@ -54,13 +63,14 @@ function valideerFormulier() {
     const achternaam = document.getElementById("achternaam").value.trim();
     const email = document.getElementById("e-mail").value.trim();
     const wachtwoord = document.getElementById("wachtwoord").value;
-
+    const klas = document.getElementById("wachtwoord").value.trim()
     const fouten = [
         valideerNummer(nummer),
         valideerVoornaam(voornaam),
         valideerAchternaam(achternaam),
         valideerEmail(email),
-        valideerWachtwoord(wachtwoord)
+        valideerWachtwoord(wachtwoord),
+        valideerKlas(klas,["5ICW6","5ICW5","6ICW6","6ICW6","6ET","6HW","5HW"])
     ].filter(fout => fout !== "");
 
     if (fouten.length > 0) {
@@ -84,7 +94,8 @@ form.addEventListener("submit", async function(event) {
         voornaam: document.getElementById("voornaam").value.trim(),
         achternaam: document.getElementById("achternaam").value.trim(),
         email: document.getElementById("e-mail").value.trim(),
-        wachtwoord: document.getElementById("wachtwoord").value
+        wachtwoord: document.getElementById("wachtwoord").value,
+        klas: document.getElementById("klas").value.trim()
     };
 
     try {
