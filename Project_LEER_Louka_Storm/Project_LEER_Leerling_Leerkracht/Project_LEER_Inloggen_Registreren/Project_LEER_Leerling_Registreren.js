@@ -65,7 +65,7 @@ function valideerFormulier() {
     const achternaam = document.getElementById("achternaam").value.trim();
     const email = document.getElementById("e-mail").value.trim();
     const wachtwoord = document.getElementById("wachtwoord").value;
-    const klas = document.getElementById("wachtwoord").value.trim()
+    const klas = document.getElementById("klas").value.trim()
     const fouten = [
         valideerNummer(nummer),
         valideerVoornaam(voornaam),
