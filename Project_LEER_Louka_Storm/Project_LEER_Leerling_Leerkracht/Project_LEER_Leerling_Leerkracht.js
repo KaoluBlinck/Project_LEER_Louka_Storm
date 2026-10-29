@@ -10,9 +10,7 @@ function leerkracht_actief(){
         document.getElementById("Knop_Leerkracht").style.backgroundColor = 'rgb(206, 205, 205)';
         document.getElementById("Knop_Leerkracht").style.color = 'black';
         actiefleerkracht = false;
-    }
-
-    else{
+    }else{
         document.getElementById("Knop_Leerling").style.backgroundColor = 'rgb(206, 205, 205)';
         document.getElementById("Knop_Leerling").style.color = 'black';
         actiefleerling = false;
@@ -27,9 +25,7 @@ function leerling_actief(){
         document.getElementById("Knop_Leerling").style.backgroundColor = 'rgb(206, 205, 205)';
         document.getElementById("Knop_Leerling").style.color = 'black';
         actiefleerling = false;
-    }
-
-    else{
+    }else{
         document.getElementById("Knop_Leerkracht").style.backgroundColor = 'rgb(206, 205, 205)';
         document.getElementById("Knop_Leerkracht").style.color = 'black';
         actiefleerkracht = false;
@@ -42,13 +38,9 @@ function leerling_actief(){
 async function inloggen(){
     if (actiefleerkracht){
         window.location.href = "./Project_LEER_Inloggen_Registreren/Project_LEER_Leerkracht_Inloggen.html";
-    }
-
-    if (actiefleerling){
+    }else if (actiefleerling){
         window.location.href = "./Project_LEER_Inloggen_Registreren/Project_LEER_Leerling_Inloggen.html";
-    }
-
-    else{
+    }else{
         document.getElementById("Knop_Inloggen").style.backgroundColor = 'red';
         document.getElementById("Knop_Inloggen").style.color = 'white';
         await sleep(250);
@@ -60,13 +52,9 @@ async function inloggen(){
 async function registreren(){
     if (actiefleerkracht){
         window.location.href = "./Project_LEER_Inloggen_Registreren/Project_LEER_Leerkracht_Registreren.html";
-    }
-
-    if (actiefleerling){
+    }else if (actiefleerling){
         window.location.href = "./Project_LEER_Inloggen_Registreren/Project_LEER_Leerling_Registreren.html";
-    }
-
-    else{
+    }else{
         document.getElementById("Knop_Registreren").style.backgroundColor = 'red';
         document.getElementById("Knop_Registreren").style.color = 'white';
         await sleep(250);
