@@ -79,7 +79,134 @@ body{
     align-items: center;
 }
 
+.nummer{
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 10px;
+    height: 40px;
+    width: 170px;
+    position: fixed;
+    top: 280px;
+    left: 555px;
+    box-shadow: 10px 10px 20px rgb(127, 127, 127);
+    outline: none;
+}
+
+.nummer:focus{
+    border-color: rgb(0, 166, 255);
+    transition-duration: 0,5s;
+}
+
+.voornaam{
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 10px;
+    height: 40px;
+    width: 170px;
+    position: fixed;
+    top: 280px;
+    left: 355px;
+    box-shadow: 10px 10px 20px rgb(127, 127, 127);
+    outline: none;
+}
+
+.voornaam:focus{
+    border-color: rgb(0, 166, 255);
+    transition-duration: 0,5s;
+}
+
+.achternaam{
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 10px;
+    height: 40px;
+    width: 170px;
+    position: fixed;
+    top: 340px;
+    left: 355px;
+    box-shadow: 10px 10px 20px rgb(127, 127, 127);
+    outline: none;
+}
+
+.achternaam:focus{
+    border-color: rgb(0, 166, 255);
+    transition-duration: 0,5s;
+}
+
+.e-mail{
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 10px;
+    height: 40px;
+    width: 170px;
+    position: fixed;
+    top: 280px;
+    right: 355px;
+    box-shadow: 10px 10px 20px rgb(127, 127, 127);
+    outline: none;
+}
+
+.e-mail:focus{
+    border-color: rgb(0, 166, 255);
+    transition-duration: 0,5s;
+}
+
+.wachtwoord{
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 10px;
+    height: 40px;
+    width: 170px;
+    position: fixed;
+    top: 340px;
+    right: 355px;
+    box-shadow: 10px 10px 20px rgb(127, 127, 127);
+    outline: none;
+}
+
+.wachtwoord:focus{
+    border-color: rgb(0, 166, 255);
+    transition-duration: 0,5s;
+}
+
+.klas{
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 10px;
+    height: 40px;
+    width: 170px;
+    position: fixed;
+    top: 340px;
+    right: 555px;
+    box-shadow: 10px 10px 20px rgb(127, 127, 127);
+    outline: none;
+}
+
+.klas:focus{
+    border-color: rgb(0, 166, 255);
+    transition-duration: 0,5s;
+}
+
 .registreerbutton{
+    border: none;
+    background-color: rgb(253, 154, 53);
+    border-radius: 30px;
+    color: white;
+    height: 50px;
+    width: 130px;
+    cursor: pointer;
     position: fixed;
     top: 400px;
+    font-family: "Inter";
+    font-size: 14px;
+}
+
+.registreerbutton:hover{
+    background-color: rgb(254, 169, 83);
 }

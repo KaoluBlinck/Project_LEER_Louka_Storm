@@ -3,6 +3,10 @@
         <title>Project LEER, Louka en Storm</title>
 
         <link rel="stylesheet" href="./Project_LEER_Leerling_Registreren.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
 
     <body>
@@ -22,14 +26,14 @@
                 <img src="../../Project_LEER_foto's/cgs_logo.png" class="logo_CGS">
                 <form class="form" method="POST" id="registreerform" action="/registreren">
                     <div>
-                        <input type="text" name="nummer" id="nummer" placeholder="nummer">
-                        <input type="text" name="naam" id="voornaam" placeholder="voornaam">
-                        <input type="text" name="achternaam" id="achternaam" placeholder="achternaam">
+                        <input type="text" name="nummer" id="nummer" class="nummer" placeholder="nummer">
+                        <input type="text" name="naam" id="voornaam" class="voornaam" placeholder="voornaam">
+                        <input type="text" name="achternaam" id="achternaam" class="achternaam" placeholder="achternaam">
                     </div>
                     <div>
-                        <input type="e-mail" name="e-mail" id="e-mail" placeholder="e-mail">
-                        <input type="wachtwoord" name="wachtwoord" id="wachtwoord" placeholder="wachtwoord">
-                        <input type="klas" name="klas" id="klas" placeholder="klas">
+                        <input type="e-mail" name="e-mail" id="e-mail" class="e-mail" placeholder="e-mail">
+                        <input type="wachtwoord" name="wachtwoord" id="wachtwoord" class="wachtwoord" placeholder="wachtwoord">
+                        <input type="klas" name="klas" id="klas" class="klas" placeholder="klas">
                     </div>
                 </form>
                 <button type="submit" form="registreerform" class="registreerbutton">registreren</button>

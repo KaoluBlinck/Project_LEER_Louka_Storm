@@ -83,25 +83,57 @@ body{
 }
 
 .e-mail{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 10px;
+    height: 40px;
+    width: 250px;
     position: fixed;
-    top: 320px;
+    top: 280px;
+    left: 515px;
+    box-shadow: 10px 10px 20px rgb(127, 127, 127);
+    outline: none;
+}
+
+.e-mail:focus{
+    border-color: rgb(0, 166, 255);
+    transition-duration: 0,5s;
 }
 
 .wachtwoord{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 10px;
+    height: 40px;
+    width: 250px;
     position: fixed;
-    top: 350px;
+    top: 340px;
+    left: 515px;
+    box-shadow: 10px 10px 20px rgb(127, 127, 127);
+    outline: none;
+}
+
+.wachtwoord:focus{
+    border-color: rgb(0, 166, 255);
+    transition-duration: 0,5s;
 }
 
 .inlogbutton{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    border: none;
+    background-color: rgb(253, 154, 53);
+    border-radius: 30px;
+    color: white;
+    height: 50px;
+    width: 130px;
+    cursor: pointer;
     position: fixed;
-    top: 390px;
+    top: 400px;
+    font-family: "Inter";
+    font-size: 14px;
+}
+
+.inlogbutton:hover{
+    background-color: rgb(254, 169, 83);
 }
