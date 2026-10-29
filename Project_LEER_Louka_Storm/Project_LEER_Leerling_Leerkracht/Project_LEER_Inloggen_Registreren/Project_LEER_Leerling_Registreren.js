@@ -1,3 +1,4 @@
+
 const form = document.getElementById("registreerform");
 
 // 1. Validatie nummer
