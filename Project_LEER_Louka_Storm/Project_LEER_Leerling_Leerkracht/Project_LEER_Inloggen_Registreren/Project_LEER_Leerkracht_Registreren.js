@@ -60,8 +60,8 @@ async function valideerFormulier() {
         document.getElementById("registreerbutton").style.backgroundColor = 'red';
         document.getElementById("registreerbutton").style.color = 'white';
         await sleep(250);
-        document.getElementById("registreerbutton").style.backgroundColor = 'rgb(206, 205, 205)';
-        document.getElementById("registreerbutton").style.color = 'black';
+        document.getElementById("registreerbutton").style.backgroundColor = 'rgb(253, 154, 53)';
+        document.getElementById("registreerbutton").style.color = 'white';
         alert(fouten.join("\n"));
         return false;
     }

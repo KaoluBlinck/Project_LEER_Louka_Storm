@@ -92,7 +92,7 @@ body{
     position: fixed;
     top: 280px;
     left: 515px;
-    box-shadow: 10px 10px 50px rgb(127, 127, 127);
+    box-shadow: 10px 10px 20px rgb(127, 127, 127);
     outline: none;
 }
 
@@ -111,7 +111,7 @@ body{
     position: fixed;
     top: 340px;
     left: 515px;
-    box-shadow: 10px 10px 50px rgb(127, 127, 127);
+    box-shadow: 10px 10px 20px rgb(127, 127, 127);
     outline: none;
 }
 
@@ -121,14 +121,19 @@ body{
 }
 
 .inlogbutton{
-    border: solid;
-    border-width: 1px;
-    border-color: black;
-    background-color: rgb(206, 205, 205);
+    border: none;
+    background-color: rgb(253, 154, 53);
     border-radius: 30px;
+    color: white;
     height: 50px;
-    width: 100px;
+    width: 130px;
     cursor: pointer;
     position: fixed;
     top: 400px;
+    font-family: "Inter";
+    font-size: 14px;
+}
+
+.inlogbutton:hover{
+    background-color: rgb(254, 169, 83);
 }
