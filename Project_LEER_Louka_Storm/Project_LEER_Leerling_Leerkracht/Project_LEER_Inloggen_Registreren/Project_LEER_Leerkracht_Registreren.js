@@ -25,7 +25,7 @@ function valideerAchternaam(achternaam) {
 // 4. Validatie e-mail
 function valideerEmail(email) {
     if (email === "") return "Vul je e-mailadres in.";
-    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+    if (!/^[^\s@]+@koronse\.be$/.test(email)) {
         return "Vul een geldig e-mailadres in.";
     }
     return "";
