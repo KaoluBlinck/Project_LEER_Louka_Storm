@@ -1,4 +1,9 @@
 const form = document.getElementById("registreerform");
+
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
 // 2. Validatie voornaam
 function valideerVoornaam(voornaam) {
     if (voornaam === "") return "Vul je voornaam in.";
@@ -38,7 +43,7 @@ function valideerWachtwoord(wachtwoord) {
 }
 
 // 6. Controleer alle invoervelden
-function valideerFormulier() {
+async function valideerFormulier() {
     const voornaam = document.getElementById("voornaam").value.trim();
     const achternaam = document.getElementById("achternaam").value.trim();
     const email = document.getElementById("e-mail").value.trim();
@@ -52,6 +57,11 @@ function valideerFormulier() {
     ].filter(fout => fout !== "");
 
     if (fouten.length > 0) {
+        document.getElementById("registreerbutton").style.backgroundColor = 'red';
+        document.getElementById("registreerbutton").style.color = 'white';
+        await sleep(250);
+        document.getElementById("registreerbutton").style.backgroundColor = 'rgb(206, 205, 205)';
+        document.getElementById("registreerbutton").style.color = 'black';
         alert(fouten.join("\n"));
         return false;
     }
