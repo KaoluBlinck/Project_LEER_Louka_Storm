@@ -51,9 +51,10 @@ function valideerKlas(klas, klassen){
     if (klas.trim() === "") {
         return "Vul een klas in.";
     }
-    if (!(klas in klassen)){
+    if (!klassen.includes(klas)) {
         return "Dit is geen geldige klas";
     }
+    return "";
 }
 
 // 6. Controleer alle invoervelden
