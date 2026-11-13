@@ -72,7 +72,7 @@ function valideerFormulier() {
         valideerAchternaam(achternaam),
         valideerEmail(email),
         valideerWachtwoord(wachtwoord),
-        valideerKlas(klas,["5ICW6","5ICW5","6ICW6","6ICW6","6ET","6HW","5HW"])
+        valideerKlas(klas,["5ICW","6ICW6","6ICW5","6ET","6HW","5HW"])
     ].filter(fout => fout !== "");
 
     if (fouten.length > 0) {
