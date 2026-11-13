@@ -7,7 +7,7 @@ body{
     border: solid;
     border-color: black;
     border-width: 1px;
-    background-color: rgb(253, 154, 53);
+    background-image: linear-gradient(to top, rgb(253, 154, 53), rgb(255, 128, 0));
     position: fixed;
     top: 0px;
     width: 100vw;
@@ -16,8 +16,37 @@ body{
 }
 
 .Logo{
-    height: 100px;
+    height: 80px;
     width: auto;
     position: fixed;
     left: 20px;
+    top: 10px;
+}
+
+.school_logo{
+    height: 60px;
+    width: auto;
+    position: fixed;
+    right: 20px;
+    top: 22px;
+}
+
+.kalender-div{
+    border: solid;
+    border-color: rgb(145, 145, 255);
+    border-width: 2px;
+    border-radius: 10px;
+    height: 250px;
+    width: 300px;
+    position: fixed;
+    right: 20px;
+    top: 125px;
+}
+
+.maand_jaar{
+    font-family: "Inter";
+    font-size: 20px;
+    position: fixed;
+    right: 115px;
+    top: 125px;
 }
