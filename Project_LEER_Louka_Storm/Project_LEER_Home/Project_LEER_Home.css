@@ -32,21 +32,52 @@ body{
 }
 
 .kalender-div{
-    border: solid;
-    border-color: rgb(145, 145, 255);
-    border-width: 2px;
+    display: flex;
+    width: 500px;
+    height: 300px;
     border-radius: 10px;
-    height: 250px;
-    width: 300px;
     position: fixed;
     right: 20px;
     top: 125px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.kalender-links{
+    width: 60%;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.vorige_maand{
+    border: none;
+    background-color: white;
+    font-size: 30px;
+    cursor: pointer;
+    position: fixed;
+    right: 463px;
+    top: 139px;
 }
 
 .maand_jaar{
     font-family: "Inter";
     font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.volgende_maand{
+    border: none;
+    background-color: white;
+    font-size: 30px;
+    cursor: pointer;
     position: fixed;
-    right: 115px;
-    top: 125px;
+    right: 250px;
+    top: 139px;
+}
+
+.kalender-rechts{
+    width: 40%;
+    background-color: rgb(253, 154, 53);
+    box-sizing: border-box;
 }
